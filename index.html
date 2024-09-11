@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript accordion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <section class="container" id="container">
+        <div class="sub-container" id="sub-container">
+          <h1>  <i class="fa fa-star"></i> FAQS <img src="image/switch.png" alt="" style="display: none;" id="on" onclick="lightmode()" ><img src="image/toggle.png" alt="" id="off" onclick="darkmode()"></h1>
+          <p id="para">what is a frontend mentor,and how will it help me? <i class="fa fa-minus" id="minus-sign" onclick="accordionup()"></i> <i class="fa fa-plus" style=" display: none;" id="plus-sign" onclick="accordiondown()"></i></p>
+          <p class="answers" id="answers">frontend mentor offers realistic coding challenges to help<br>
+        developers improve their frontend coding skills with projects <br>in html,css,and javascript.its suitable for all levels and ideal <br>for portfolio building. </p>
+        <hr>
+        <p id="para">is frontend mentor free?  <i class="fa fa-plus"></i> </p>
+        <hr>
+        <p id="para">can i use frontend mentor projects in my portfolio? <i class="fa fa-plus"></i> </p>
+        <hr>
+     <p id="para">how can i get help if im stuck on a challenge? <i class="fa fa-plus"></i></p>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>

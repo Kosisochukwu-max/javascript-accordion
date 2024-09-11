@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section.container{
+    background:linear-gradient(to bottom,purple,rgb(194, 188, 194)) ;
+    height: 100vh;
+    padding-top: 40vh;
+
+}
+/* body{
+    background-color: black;
+} */
+div.sub-container{
+    background-color: rgb(247, 242, 242);
+    margin: auto;
+    width: fit-content;
+    line-height: 2.9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px ;
+
+    
+}
+.fa{
+    color: purple;
+    border: solid purple 1px;
+    cursor: pointer;
+}
+
+.fa-minus{
+    margin-left:5rem;
+}
+.fa-plus{
+    margin-left: 2rem;
+}
+.fa-star{
+    font-size: 16px;
+    margin-right: 2rem;
+}
+p.answers{
+    color: rgb(189, 186, 186);
+    line-height: 1;
+}
+img{
+    cursor: pointer;
+}
